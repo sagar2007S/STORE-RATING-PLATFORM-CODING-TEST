@@ -56,13 +56,16 @@ cd food-rating-app
 
 Backend:
 
+```bash
 cd backend
 npm install
-
+```
 Frontend:
 
+```bash
 cd frontend
 npm install
+```
 ```
 ```
 ### 3. Configure environment variables: create a .env file inside backend/:
@@ -80,21 +83,24 @@ PORT=5000
 
 Start backend:
 
+```bash
 cd backend
 npm run dev
-
+```
 Start frontend:
 
+```bash
 cd frontend
 npm run dev
-
+```
 ```
 ```
 ### Seeding Admin
 
+```bash
 cd backend
 npm run seed
-
+```
 This will Create:
 email:admin@roxiller.com
 password:Admin@123

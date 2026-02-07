@@ -1,6 +1,6 @@
-#  Food Rating App
+#  Store Rating Platform
 
-A full-stack food rating platform built with **React, Node.js, Express, and MySQL**.  
+A full-stack Store Rating platform built with **React, Node.js, Express, and MySQL**.  
 Users can browse stores and rate them, Owners can view ratings on their stores, and Admins can manage users and stores.
 
 ---
@@ -49,8 +49,8 @@ Users can browse stores and rate them, Owners can view ratings on their stores, 
 ---
 ### 1. Clone repo
 ```bash
-git clone https://github.com/sagar2007S/Food_Rating_App.git
-cd food-rating-app
+git clone https://github.com/sagar2007S/STORE_RATING_APP_CODING_TEST.git
+
 ```
 ### 2. Install dependencies:
 
@@ -66,8 +66,7 @@ Frontend:
 cd frontend
 npm install
 ```
-```
-```
+
 ### 3. Configure environment variables: create a .env file inside backend/:
 
 DB_NAME=myNewDatabase
@@ -77,8 +76,7 @@ DB_HOST=localhost
 JWT_SECRET=supersecretjwtkey
 PORT=5000
 
-```
-```
+
 ### Running The App
 
 Start backend:
@@ -93,8 +91,7 @@ Start frontend:
 cd frontend
 npm run dev
 ```
-```
-```
+
 ### Seeding Admin
 
 ```bash
@@ -108,8 +105,7 @@ role:admin
 Use these credentials to log in and access the Admin Dashboard.
 
 
-```
-```
+
 ### API Endpoints
 
 # Auth

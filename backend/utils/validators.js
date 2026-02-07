@@ -7,7 +7,7 @@ export const isValidEmail = (email) => {
 export const validateName = (name) => {
   if (!name) return "Name is required";
   const trimmed = String(name).trim();
-  if (trimmed.length < 20) return "Name must be at least 20 characters.";
+  if (trimmed.length < 10) return "Name must be at least 10 characters.";
   if (trimmed.length > 60) return "Name must be at most 60 characters.";
   if (/^testuser/i.test(trimmed)) return "Please provide a real name, not a placeholder.";
   return null;

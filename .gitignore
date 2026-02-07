@@ -1,10 +1,10 @@
-# dependencies
+# dependenciess
 frontend/node_modules
 backend/node_modules
 
-# environment variables
+# environment variabless
 frontend/.env
 backend/.env
 
-# build files
+# build filess
 frontend/build
